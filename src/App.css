@@ -1,0 +1,8 @@
+.App{
+    background: rgb(199, 205, 255);
+    width : 100%;
+    height : 107.5vh;
+    content : "";
+    margin-top: -50px;
+    overflow-y:hidden;
+}

@@ -1,0 +1,155 @@
+.Box{
+    background-color: #ffffff;
+    position : absolute;
+    top:125px;
+    left :800px ;
+    width: 300px;
+    height: 380px;
+    max-height: 400px;
+    z-index: 3;
+    /* border-radius : 10px; */
+    padding-top: 20px;
+    z-index: 0;;
+}
+
+.Boxx{
+    background-color: #ffffff;
+    position : absolute;
+    top:125px;
+    left :800px ;
+    width: 300px;
+    height: 330px;
+    
+    z-index: 3;
+    /* border-radius : 10px; */
+    padding-top: 60px;
+    z-index: 0;;
+}
+
+.Anibox{
+    background-color: #ffffff;
+    position : absolute;
+    top:125px;
+    left :800px ;
+    width: 300px;
+    height: 380px;
+    max-height: 400px;
+    z-index: 3;
+    /* border-radius : 10px; */
+    padding-top: 20px;
+    z-index: 0;;
+    animation : anim 1s 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transition: cubic-bezier(1, 0, 0, 1);
+    transition-duration: 1s;
+}
+
+@keyframes anim{
+    0% {top: 125px; left:800px;}
+    100% {top: 125px; left:450px;}
+}
+
+.Email{
+    display:flex;
+    width:100%;
+    height :45px;
+    overflow : hidden;
+    position: relative;
+    margin:10px 0;
+}
+
+.Email input{
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border : solid 1px;
+    border-color: rgb(155, 155, 155);
+    align-content: center;;
+    border-radius : 5px;
+    padding-left: 50px;
+    margin : 5px 20px;
+}
+
+.Email i{
+    position: absolute;;
+    padding-left: 30px;
+    font-size: 20px;
+    left: 0;
+    top:13px;
+    color: black;
+}
+
+.Pass{
+    display:flex;
+    width:100%;
+    height :45px;
+    overflow : hidden;
+    position: relative;
+    margin:10px 0;
+}
+
+.Pass input{
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border : solid 1px;
+    border-color: rgb(155, 155, 155);
+    align-content: center;;
+    border-radius : 5px;
+    padding-left: 50px;
+    margin-top : 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.Pass i{
+    position: absolute;;
+    padding-left: 30px;
+    font-size: 20px;
+    left: 0;
+    top:13px;
+    color: black;
+}
+
+.lbl{
+    padding-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;;
+    color: rgb(53, 53, 53);;
+    
+}
+.button{
+    margin-top: 10px;
+    margin-left : 20px;
+    margin-right : 20px;
+    height : 40px;
+    width:   260px;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: aliceblue;
+    cursor: pointer;
+    border : none;
+    background-color: rgb(29, 29, 97);;
+}
+
+.warn{
+    font-size: 10px;
+    align-self: center;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color :rgb(155, 155, 155);
+    padding:0 40px;
+    
+}
+
+.err{
+    color: red;
+    font-size: 10px;
+    align-self: center;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:0 40px;
+}

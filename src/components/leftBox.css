@@ -1,0 +1,92 @@
+.leftBox{
+    position : fixed;
+    top : 125px;
+    left:300px;
+    overflow: hidden;
+    width :100px;
+    height : 400px;
+    background-color: #ffffff;
+    /* border-radius : 10px; */
+    
+    
+    /* animation : ani 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transition: cubic-bezier(1, 0, 0, 1);
+    transition-duration: 0.5s; */
+}
+
+.leftBoxx{
+    position : fixed;
+    top : 125px;
+    left:300px;
+    overflow: hidden;
+    width :100px;
+    height : 400px;
+    background-color: #ffffff;
+    /* border-radius : 10px; */
+    
+    
+    animation : ani 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transition: cubic-bezier(1, 0, 0, 1);
+    transition-duration: 0.5s;
+}
+
+@keyframes ani{
+    0% {top: 125px; left:300px;}
+    100% {top: 125px; left:500px;}
+}
+
+.leftBox ul li{
+    list-style: none;
+    margin-left: -20px;
+    width : 100%;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+.leftBox ul li ::before{
+    position: absolute;
+    content : "";
+    top:0;
+    left : 0;
+    width:0px;
+    background-color: rgb(54, 54, 252);
+    margin-left : -20px;
+    height : 120px;
+    border-radius: 5px;
+}
+
+.leftBox ul li :hover::before , .leftBox ul li.active a::before{
+    width: 7px;
+    transition : 0.5s;
+}
+
+.leftBox ul li :hover , .leftBox ul li.active a{
+    color: rgb(24, 24, 24);
+    transition: 0.3s;
+}
+
+
+.leftBox ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(126, 126, 126);
+    font-weight: bolder;
+    /* margin-left:-10px; */
+}
+.leftBox ul li p{
+    margin-top : -15px;
+}
+
+.leftBox ul li i{
+    font-size: 70px;
+    align-items: center;   
+}
+
+.blank{
+    height: 80px;
+    width: 50px;
+}
